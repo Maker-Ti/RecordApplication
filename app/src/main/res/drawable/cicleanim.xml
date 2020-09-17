@@ -1,0 +1,14 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:drawable="@drawable/cicle"
+    tools:ignore="NewApi">
+    <target
+        android:name="rotationGroup1"
+        android:animation="@animator/rotation1" />
+    <target
+        android:name="rotationGroup2"
+        android:animation="@animator/rotation2" />
+    <target
+        android:name="rotationGroup3"
+        android:animation="@animator/rotation3" />
+</animated-vector>

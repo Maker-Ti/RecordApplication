@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#FAFAFA"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/cicle_60_grey"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textColor="@color/maintextColor"
+                android:text="查看文字记录"/>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/tv_title"
+                android:maxLength="50"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/cicle_60_grey"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+              />
+
+           <ScrollView
+
+               android:layout_marginLeft="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginRight="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="500dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+                   <TextView
+
+                       android:id="@+id/tv_content"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+
+                       android:background="@drawable/conor_5_grey"
+                       android:gravity="top"
+                       android:padding="10dp"
+
+                       />
+               </LinearLayout>
+           </ScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/close"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="@drawable/blue_bc_conor_5"
+                    android:gravity="center"
+                    android:textColor="#fff"
+                    android:text="关闭"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

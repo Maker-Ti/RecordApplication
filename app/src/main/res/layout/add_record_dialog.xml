@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="#fff">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="新建档案"
+        android:textSize="24dp"
+        android:textColor="@color/maintextColor"/>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/ed_bc"
+        android:gravity="center|left"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/hintColor"
+        android:textColor="@color/maintextColor"
+        android:hint="档案名称"
+
+        android:id="@+id/ed_name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ed_bc"
+        android:paddingTop="5dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/hintColor"
+        android:textColor="@color/maintextColor"
+        android:hint="档案概述"
+        android:paddingBottom="5dp"
+        android:id="@+id/ed_info"/>
+    <Button
+        android:id="@+id/btn_sure"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:text="确定"
+        android:background="@drawable/blue_bc_conor"/>
+</LinearLayout>

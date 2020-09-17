@@ -1,0 +1,50 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FAFAFA"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/cicle_60_grey"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:text="添加录音记录"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="36dp"/>
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/name"
+            android:maxLength="50"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/cicle_60_grey"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:hint="输入记录名称（唯一）"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:background="@drawable/blue_bc_conor_5"
+            android:id="@+id/start"
+            android:text="开始录制"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+    </LinearLayout>
+</LinearLayout>
